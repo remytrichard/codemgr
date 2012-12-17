@@ -1,4 +1,4 @@
-### An utility to manage source code repositories.
+# An utility to manage source code repositories.
 
 A small script to manage git source code repositories on a server.
 
@@ -16,19 +16,19 @@ Edit line 19 & 22 to fit your server set up.
 	git clone git://github.com/remytrichard/codemgr.git
 	./codemgr.sh init
 
-# Create a new repo
+### Create a new repo
 
 	./codemgr.sh new REPO\_NAME "DESCRIPTION"
 
-# List repos on the server
+### List repos on the server
 
 	./codemgr.sh list
 
-# Get infos on a repo
+### Get infos on a repo
 
 	./codemgr.sh info REPO\_NAME
 
-# Clone a repo
+### Clone a repo
 
 	./codemgr.sh clone REPO\_NAME
 
