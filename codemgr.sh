@@ -112,7 +112,18 @@ function display_error
 	echo 'An error occurred, the script was interrupted unexpectedly.'
 }
 
+function sanity_test
+{
+	# Sanity test for people who might skip the README...
+	if [[ "$gitHost" == '[USER]@[MACHINE]' ]]; then
+		echo 'RTFM! Please, configure before using.'
+		exit 1
+	fi
+}
+
 ##### Main
+
+sanity_test
 
 trap 'display_error; exit' INT TERM EXIT
 # Handles the command line arguments.
