@@ -18,7 +18,7 @@ Edit line 19 & 22 to fit your server set up.
 
 ### Create a new repo
 
-	./codemgr.sh new REPO\_NAME "DESCRIPTION"
+	./codemgr.sh new REPO_NAME "DESCRIPTION"
 
 ### List repos on the server
 
@@ -26,11 +26,11 @@ Edit line 19 & 22 to fit your server set up.
 
 ### Get infos on a repo
 
-	./codemgr.sh info REPO\_NAME
+	./codemgr.sh info REPO_NAME
 
 ### Clone a repo
 
-	./codemgr.sh clone REPO\_NAME
+	./codemgr.sh clone REPO_NAME
 
 ## License
 
